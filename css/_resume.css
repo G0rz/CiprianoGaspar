@@ -1,0 +1,95 @@
+.profile-card {
+    background-color: white;
+    border-radius: .55rem;
+    box-shadow: 0 .12rem .26rem 0 rgb(0 0 0 / 15%), 0 .12rem .37rem 0 rgb(0 0 0 / 11%);
+}
+
+.profile-pic {
+    box-shadow: 0 0 .26rem rgb(0 0 0 / 40%);
+}
+
+.btn-download {
+    background: transparent;
+    box-shadow: 0 0 .26rem rgb(0 0 0 / 40%);
+    color: #757575;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.btn-download:hover {
+    text-decoration: none;
+    color: #757575;
+    box-shadow: 0 0 8px rgb(0 0 0 / 30%), 0 0 12px rgb(0 0 0 / 20%);
+}
+
+.fas, .text-gray {
+    color: #757575;
+}
+
+.name {
+    color: #0487cc;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.subtitle {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #757575;
+    padding-bottom: 1.25rem;
+    font-size: 1.25em;
+}
+
+.about-me {
+    line-height: 28px;
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-bottom: 27px;
+}
+
+.info {
+    line-height: 1.75rem;
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-bottom: .51rem;
+}
+
+.info-title {
+    display: inline-block;
+    width: 6rem;
+}
+
+.title-links {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+    color: #757575;
+}
+
+.social-links {
+    font-size: 1rem;
+    width: 35px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 2px;
+    display: inline-block;
+    border: 1px solid #757575;
+    color: #757575;
+}
+
+.social-links a {
+    color: #757575;
+}
+
+.social-links a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links:hover {
+    background-color: #0487cc;
+    border-color: #0487cc;
+    box-shadow: 0 0 3px #0487cc;
+}
