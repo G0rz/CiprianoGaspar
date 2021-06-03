@@ -1,3 +1,15 @@
+* {
+    letter-spacing: .5px;
+}
+
+body{
+    background-color: #efefef !important;
+}
+
+.skills-title {
+    color: #0487cc;
+}
+
 .profile-card {
     background-color: white;
     border-radius: .55rem;
