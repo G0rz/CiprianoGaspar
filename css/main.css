@@ -1,5 +1,6 @@
 * {
     letter-spacing: .5px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 body {
@@ -110,3 +111,4 @@ body {
     border-radius: .55rem;
     box-shadow: 0 .12rem .26rem 0 rgb(0 0 0 / 15%), 0 .12rem .37rem 0 rgb(0 0 0 / 11%);
 }
+
