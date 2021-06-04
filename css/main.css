@@ -105,3 +105,8 @@ body{
     border-color: #0487cc;
     box-shadow: 0 0 3px #0487cc;
 }
+
+.card{
+    border-radius: .55rem;
+    box-shadow: 0 .24rem .50rem 0 rgb(0 0 0 / 30%), 0 .24rem .37rem 0 rgb(0 0 0 / 22%);
+}
