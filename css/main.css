@@ -2,7 +2,7 @@
     letter-spacing: .5px;
 }
 
-body{
+body {
     background-color: #efefef !important;
 }
 
@@ -106,7 +106,7 @@ body{
     box-shadow: 0 0 3px #0487cc;
 }
 
-.card{
+.card {
     border-radius: .55rem;
-    box-shadow: 0 .24rem .50rem 0 rgb(0 0 0 / 30%), 0 .24rem .37rem 0 rgb(0 0 0 / 22%);
+    box-shadow: 0 .12rem .26rem 0 rgb(0 0 0 / 15%), 0 .12rem .37rem 0 rgb(0 0 0 / 11%);
 }
