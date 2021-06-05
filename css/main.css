@@ -135,7 +135,7 @@ svg {
 }
 
 .circle_animation {
-  stroke-dasharray: 440; /* this value is the pixel circumference of the circle */
+  stroke-dasharray: 300; /* this value is the pixel circumference of the circle */
   stroke-dashoffset: 440;
 }
 
