@@ -1,3 +1,20 @@
+<<<<<<< Updated upstream:css/_resume.css
+=======
+* {
+    letter-spacing: .5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+    background: linear-gradient(180deg, #0487cc 10%, #efefef 10%);
+}
+
+.skills-title {
+    color: #0487cc;
+}
+
+>>>>>>> Stashed changes:css/main.css
 .profile-card {
     background-color: white;
     border-radius: .55rem;
