@@ -398,7 +398,7 @@
     <footer>
         <div class="container py-5 text-justify">
             <div class="row justify-content-center">
-                <div class="col-md-5 text-md-left text-center">
+                <div class="col-md-3 text-md-left text-center">
                     <h4>Contacto:</h4>
                     <ul class="list-unstyled">
                         <li><i class="fas fa-mobile-alt text-white my-3"></i> +52 729-168-9007</li>
@@ -423,10 +423,36 @@
                            rel="noopener noreferrer" data-placement="top" title="Whatsapp"></a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-3 text-center">
                     <br>
                     <q><i>Yo os enseño el superhombre. El hombre es algo que debe ser superado. ¿Qué habéis hecho para
                             superarlo? </i></q><br><span>- Zaratustra -</span>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h5>ENVIAME UN CORREO:</h5>
+                    <form name="contact" method="POST" data-netlify="true">
+                            <div class="form-group">
+                                <input name="nombre" type="text" class="form-control name-field"
+                                    placeholder="Nombre(s) " required>
+                            </div>
+                            <div class="form-group">
+                                <input name="email" type="email" class="form-control mail-field" placeholder="E-mail"
+                                     required>
+                            </div>
+                            <div class="form-group">
+                                <input name="asunto" type="text" class="form-control name-field" placeholder="Asunto"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="mensaje" id="message" class="form-control" rows="4"
+                                    placeholder="Mensaje" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-outline-light">
+                                    Enviar
+                                </button>
+                            </div>
+                    </form>
                 </div>
             </div>
             <hr style="background-color: white;">
