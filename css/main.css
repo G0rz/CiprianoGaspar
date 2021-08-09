@@ -1,20 +1,11 @@
-<<<<<<< HEAD:css/_resume.css
-<<<<<<< Updated upstream:css/_resume.css
-=======
-=======
->>>>>>> gh-pages:css/main.css
 * {
     letter-spacing: .5px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
 body {
-<<<<<<< HEAD:css/_resume.css
-    background-color: #efefef;
-    background: linear-gradient(180deg, #0487cc 10%, #efefef 10%);
-=======
-    background-color: #efefef !important;
->>>>>>> gh-pages:css/main.css
+     background-color: #efefef;
+   /* background: linear-gradient(180deg, #0487cc 10%, #efefef 10%);*/
 }
 
 .skills-title {
