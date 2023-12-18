@@ -3,7 +3,7 @@ $(document).ready(function () {
         lazyLoad: true,
         loop: true,
         margin: 30,
-        dots: true,
+        dots: false,
         responsive: {
             0: {
                 items: 1
