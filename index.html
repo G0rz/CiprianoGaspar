@@ -417,15 +417,23 @@
             </div>
             <div class="col-md-4">
                 <h5>ENVIAME UN CORREO:</h5>
-                <form class="form-group" name="contact" method="POST" data-netlify="true">
-                    <input name="nombre" type="text" class="form-control my-2 name-field" placeholder="Nombre(s) "
-                           required>
-                    <input name="email" type="email" class="form-control my-2 mail-field" placeholder="E-mail"
-                           required>
-                    <input name="asunto" type="text" class="form-control my-2 name-field" placeholder="Asunto"
-                           required>
+                <form class="form-group" name="contact" method="POST" data-netlify="true" onSubmit="submit">
+                    <div class="form-group text-center">
+                        <input name="nombre" type="text" class="form-control my-2 name-field" placeholder="Nombre(s) "
+                               required>
+                    </div>
+                    <div class="form-group text-center">
+                        <input name="email" type="email" class="form-control my-2 mail-field" placeholder="E-mail"
+                               required>
+                    </div>
+                    <div class="form-group text-center">
+                        <input name="asunto" type="text" class="form-control my-2 name-field" placeholder="Asunto"
+                               required>
+                    </div>
+                    <div class="form-group text-center">
                     <textarea name="mensaje" id="message" class="form-control my-2" rows="4" placeholder="Mensaje"
                               required></textarea>
+                    </div>
                     <div class="form-group text-center">
                         <button id="submitButton" type="submit" class="btn btn-block btn-outline-light my-2">
                             Enviar
