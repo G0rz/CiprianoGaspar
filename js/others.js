@@ -4,6 +4,9 @@ $(document).ready(function () {
         loop: true,
         margin: 30,
         dots: false,
+        autoplay: true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
         responsive: {
             0: {
                 items: 1
